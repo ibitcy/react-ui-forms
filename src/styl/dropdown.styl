@@ -1,0 +1,34 @@
+$ui-element-border-color = #414A60
+$input-height = 38px
+
+.dropdown-global
+	position: absolute
+	z-index 9991
+	display: none
+	margin-top -1px
+
+	input
+		display: none
+
+	.preview-color
+		display: none
+
+	.current
+		position: absolute
+		top -($input-height - 1)
+		width 100%
+		display: block
+		border 1px solid $ui-element-border-color
+		border-bottom none
+		box-sizing: border-box
+		z-index 9992
+		height $input-height
+		border-radius 3px 3px 0 0
+		cursor pointer
+
+	.sel-dropdown
+		display: block
+		position relative
+
+	&.active
+		display: block

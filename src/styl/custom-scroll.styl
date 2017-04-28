@@ -1,0 +1,74 @@
+$scroll-width = 20px
+
+.custom-scroll
+	.outer-container
+		overflow hidden
+		position relative
+
+		&:hover
+			.custom-scrollbar
+				opacity 1
+				transition-duration 0.2s
+
+	.inner-container
+		overflow-x hidden
+		overflow-y hidden
+
+		&.content-scrolled
+			&:after
+				opacity 1
+
+	.custom-scrollbar
+		user-select none
+		position absolute
+		height 100%
+		width $scroll-width
+		right 0
+		opacity 1
+		z-index 50
+		transition opacity 0.4s ease-out
+		padding $scroll-width 0
+		box-sizing border-box
+		will-change opacity
+		cursor pointer
+
+		.custom-scroll-handle
+			position absolute
+			width 100%
+			top 0
+
+		.inner-handle
+			height calc(100% - 12px)
+			margin-top 6px
+			width 14px
+			transform translateX(2px)
+
+			&:after
+				content ''
+				display: block
+				background-color $faded-text-color
+				border-radius 3px
+				width 6px
+				height 100%
+				transform translateX(7px)
+				transition transform .2s, width .2s, opacity .2s, border-radius .2s
+				opacity .15
+
+			&:hover
+				&:after
+					border-radius 4px
+					width 10px
+					transform translateX(5px)
+					opacity .25
+
+
+	&.scroll-handle-dragged
+		.inner-container
+			user-select none
+
+		.inner-handle
+			&:after
+				border-radius 4px
+				width 10px
+				transform translateX(5px)
+				opacity .4 !important
