@@ -5,6 +5,6 @@ rm -rf index.d.ts
 mkdir lib
 yarn
 gulp stylesProduction
-tsc ./src/ts/components/ui/VideoSeekSlider.tsx -d --jsx react --target ES5 --outDir ./lib
-cp ./lib/VideoSeekSlider.d.ts ./
-mv VideoSeekSlider.d.ts index.d.ts
+tsc ./src/ts/components/ui/form.tsx -d --jsx react --target ES5 --outDir ./lib
+cp ./lib/form.d.ts ./
+mv form.d.ts index.d.ts
