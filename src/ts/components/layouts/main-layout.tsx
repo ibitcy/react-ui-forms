@@ -7,6 +7,8 @@ import {UITextArea} from "../ui/form/text-area";
 import {UIFormMessage, UIFormMessageType} from "../ui/form/form-message";
 import {UiFormCheckbox} from "../ui/form/checkbox";
 import {UIFormSelector} from "../ui/form/selector";
+import {UIColorSelector} from "../ui/form/color-selector";
+import {UICountrySelector} from "../ui/form/country-selector";
 
 export interface Props {
 
@@ -16,7 +18,9 @@ export interface State {
 	currentTime: number,
 	ch: boolean,
 	ch1: boolean,
-	selKey: number
+	selKey: number,
+	colorKey: string,
+	countryKey: any,
 }
 
 export class AppComponent extends React.Component<Props, State> {
@@ -24,7 +28,9 @@ export class AppComponent extends React.Component<Props, State> {
 		currentTime: 0,
 		ch: false,
 		ch1: true,
-		selKey: 0
+		selKey: 0,
+		colorKey: '',
+		countryKey: 'RU'
 	};
 
 	private onValid(): void {
@@ -151,6 +157,31 @@ export class AppComponent extends React.Component<Props, State> {
 							/>
 						</div>
 
+						<div className="form-row test">
+							<UIColorSelector
+								defKey={this.state.colorKey}
+								onChange={(val: string) => {
+									console.log(val);
+									this.setState({
+										colorKey: val
+									} as State);
+								}}
+							/>
+						</div>
+
+						<div className="form-row test">
+							<UICountrySelector
+								defKey={this.state.countryKey}
+								onChange={(val: string) => {
+									console.log(val);
+									this.setState({
+										countryKey: val
+									} as State);
+								}}
+								iconsPath="https://static.expertoption.com/flags/svg/4x3/"
+							/>
+						</div>
+
 						<div className="form-row">
 							<UITextArea name="text-area"/>
 						</div>
@@ -207,13 +238,18 @@ export class AppComponent extends React.Component<Props, State> {
 							</div>
 
 							<div className="form-row">
-								<label>.btn btn-primary loading</label>
+								<label>.btn btn-google</label>
 								<button className="btn btn-google" type="submit">Button</button>
 							</div>
 
 							<div className="form-row">
-								<label>.btn btn-primary loading</label>
+								<label>.btn btn-facebook </label>
 								<button className="btn btn-facebook" type="submit">Button</button>
+							</div>
+
+							<div className="form-row">
+								<label>.btn-tw</label>
+								<button className="btn btn-tw" type="submit">Button</button>
 							</div>
 
 

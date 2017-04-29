@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="510px" height="510px" viewBox="0 0 510 510" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="social-ig" sketch:type="MSLayerGroup" fill="#FFFFFF">
+            <g id="post-instagram" sketch:type="MSShapeGroup">
+                <path d="M459,0 L51,0 C22.95,0 0,22.95 0,51 L0,459 C0,487.05 22.95,510 51,510 L459,510 C487.05,510 510,487.05 510,459 L510,51 C510,22.95 487.05,0 459,0 L459,0 Z M255,153 C311.1,153 357,198.9 357,255 C357,311.1 311.1,357 255,357 C198.9,357 153,311.1 153,255 C153,198.9 198.9,153 255,153 L255,153 Z M63.75,459 C56.1,459 51,453.9 51,446.25 L51,229.5 L104.55,229.5 C102,237.15 102,247.35 102,255 C102,339.15 170.85,408 255,408 C339.15,408 408,339.15 408,255 C408,247.35 408,237.15 405.45,229.5 L459,229.5 L459,446.25 C459,453.9 453.9,459 446.25,459 L63.75,459 L63.75,459 Z M459,114.75 C459,122.4 453.9,127.5 446.25,127.5 L395.25,127.5 C387.6,127.5 382.5,122.4 382.5,114.75 L382.5,63.75 C382.5,56.1 387.6,51 395.25,51 L446.25,51 C453.9,51 459,56.1 459,63.75 L459,114.75 L459,114.75 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

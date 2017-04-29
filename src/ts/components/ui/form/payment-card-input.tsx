@@ -2,7 +2,6 @@ import * as React from 'react';
 import {FieldType, ValidationType, Context} from "./form";
 import {UtilsService} from "../../../services/utils";
 import {CardsFormat, CardTypes} from 'cards-format';
-import {setTimeout} from "timers";
 
 interface Props {
 	name: string,
