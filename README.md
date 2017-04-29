@@ -37,10 +37,10 @@ var UIFormMessage = require('react-valid-form');
 var UIFormMessageType = require('react-valid-form');
 ```
 
-Also use css in a lib folder in: 
+Also use css and images in a public folder in: 
 
 ```
-node_modules/react-video-seek-slider/lib/inputs.css
+node_modules/react-valid-form/public/....
 ```
 
 ## How to use

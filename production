@@ -1,7 +1,12 @@
 #!/bin/sh
 cd "$(dirname "$0")"
 rm -rf lib/
+rm -rf public/
 mkdir lib
+mkdir public
+mkdir public/css
+mkdir public/img
+cp -R ./src/img ./public
 gulp stylesProduction
 tsc ./src/ts/components/ui/form/card-expiry-input.tsx -d --jsx react --target ES5 --outDir ./lib
 tsc ./src/ts/components/ui/form/checkbox.tsx -d --jsx react --target ES5 --outDir ./lib

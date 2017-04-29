@@ -124,7 +124,7 @@ function images() {
 }
 
 gulp.task('stylesProduction', function () {
-	return gulp.src('src/styl/ui-video-seek-slider.styl')
+	return gulp.src('src/styl/inputs.styl')
 		.pipe(plumber())
 		.pipe(stylus(
 			{
@@ -134,8 +134,8 @@ gulp.task('stylesProduction', function () {
 				]
 			}
 		))
-		.pipe(rename('video-seek-slider.css'))
-		.pipe(gulp.dest('lib'));
+		.pipe(rename('react-valid-form.css'))
+		.pipe(gulp.dest('public/css'));
 });
 
 gulp.task('html', function () {
