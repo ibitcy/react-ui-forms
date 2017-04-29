@@ -5,7 +5,7 @@ import * as libphonenumber from 'google-libphonenumber';
 import {UICountrySelector} from "./country-selector";
 import PhoneNumberUtil = libphonenumber.PhoneNumberUtil;
 
-interface Props {
+export interface Props {
 	name: string,
 	type?: string,
 	value?: string,
@@ -19,7 +19,7 @@ interface Props {
 	iconsPath?: string
 }
 
-interface State {
+export interface State {
 	value: string,
 	country: string,
 	isValid: boolean,

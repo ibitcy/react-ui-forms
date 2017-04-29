@@ -7,7 +7,7 @@ export interface UIFormColorItem {
 	value: string
 }
 
-interface Props {
+export interface Props {
 	items?: UIFormColorItem[],
 	defKey: string,
 	onChange: Function,
@@ -15,7 +15,7 @@ interface Props {
 	placeholder?: string,
 }
 
-interface State {
+export interface State {
 
 }
 

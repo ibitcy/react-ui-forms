@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {UIForm, ValidationType} from "../ui/form/form";
+import {ReactValidForm, ValidationType} from "../ui/form/form";
 import {UITextInput} from "../ui/form/text-input";
 import {UIPaymentCardInput} from "../ui/form/payment-card-input";
 import {UICardExpiryInput} from "../ui/form/card-expiry-input";
@@ -44,50 +44,53 @@ export class AppComponent extends React.Component<Props, State> {
 			<div>
 				<div className="container">
 					<h1>React-valid-form</h1>
-					<div className="form-row">
-						<UiFormCheckbox
-							checked={this.state.ch}
-							name="chk1"
-							onChange={(val) => {
-								this.setState({
-									ch: val
-								} as State);
-							}}
-						/>
-					</div>
-
-					<div className="form-row">
-						<UiFormCheckbox
-							checked={this.state.ch1}
-							liner={true}
-							name="chk2"
-							label="Label 1"
-							onChange={(val) => {
-								this.setState({
-									ch1: val
-								} as State);
-							}}
-						/>
-					</div>
-
-					<div className="form-row">
-						<UiFormCheckbox
-							checked={this.state.ch1}
-							liner={true}
-							label="label for checkbox"
-							name="chk3"
-							onChange={(val) => {
-								this.setState({
-									ch1: val
-								} as State);
-							}}
-						/>
-					</div>
 
 
-					<UIForm onSubmitValid={this.onValid} resetOnSubmitValid={true}>
+
+					<ReactValidForm onSubmitValid={this.onValid} resetOnSubmitValid={true}>
+
 						<UIFormMessage message="Test message success" type={UIFormMessageType.SUCCESS}/>
 						<UIFormMessage message="Test message error" type={UIFormMessageType.ERROR}/>
+
+						<div className="form-row">
+							<UiFormCheckbox
+								checked={this.state.ch}
+								name="chk1"
+								onChange={(val) => {
+									this.setState({
+										ch: val
+									} as State);
+								}}
+							/>
+						</div>
+
+						<div className="form-row">
+							<UiFormCheckbox
+								checked={this.state.ch1}
+								liner={true}
+								name="chk2"
+								label="Label 1"
+								onChange={(val) => {
+									this.setState({
+										ch1: val
+									} as State);
+								}}
+							/>
+						</div>
+
+						<div className="form-row">
+							<UiFormCheckbox
+								checked={this.state.ch1}
+								liner={true}
+								label="label for checkbox"
+								name="chk3"
+								onChange={(val) => {
+									this.setState({
+										ch1: val
+									} as State);
+								}}
+							/>
+						</div>
 
 						<div className="form-row">
 							<UITextInput
@@ -263,7 +266,7 @@ export class AppComponent extends React.Component<Props, State> {
 
 
 						</div>
-					</UIForm>
+					</ReactValidForm>
 				</div>
 			</div>
 		);

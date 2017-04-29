@@ -8,7 +8,7 @@ export interface UIFormSelectorItem {
 	value: string
 }
 
-interface Props {
+export interface Props {
 	isSng?: boolean,
 	defKey: any,
 	onChange: (key: any) => void,
@@ -17,7 +17,7 @@ interface Props {
 	iconsPath?: string
 }
 
-interface State {
+export interface State {
 	items: UIFormSelectorItem[],
 	searchRequest: string
 }

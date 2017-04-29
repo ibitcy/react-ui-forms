@@ -6,13 +6,13 @@ export enum UIFormMessageType {
 	ERROR
 }
 
-interface Props {
+export interface Props {
 	message:string,
 	type:UIFormMessageType,
 	onClose?:() => void
 }
 
-interface State {
+export interface State {
 
 }
 

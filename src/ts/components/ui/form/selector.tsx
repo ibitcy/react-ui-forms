@@ -8,7 +8,7 @@ export interface UIFormSelectorItem {
 	value: string
 }
 
-interface Props {
+export interface Props {
 	items: UIFormSelectorItem[],
 	defKey: any,
 	onChange: (key: any) => void,
@@ -20,7 +20,7 @@ interface Props {
 	maxHeightItems?: number,
 }
 
-interface State {
+export interface State {
 	searchRequest: string
 }
 

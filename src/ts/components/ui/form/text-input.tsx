@@ -2,7 +2,7 @@ import * as React from 'react';
 import {FieldType, ValidationType, Context} from "./form";
 import {UtilsService} from "../../../services/utils";
 
-interface Props {
+export interface Props {
 	name: string,
 	type?: string,
 	value?: string,
@@ -16,7 +16,7 @@ interface Props {
 	invalidateMessage?: string
 }
 
-interface State {
+export interface State {
 	value: string,
 	isValid: boolean
 }

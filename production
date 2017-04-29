@@ -1,10 +1,15 @@
 #!/bin/sh
 cd "$(dirname "$0")"
 rm -rf lib/
-rm -rf index.d.ts
 mkdir lib
-yarn
 gulp stylesProduction
-tsc ./src/ts/components/ui/form.tsx -d --jsx react --target ES5 --outDir ./lib
-cp ./lib/form.d.ts ./
-mv form.d.ts index.d.ts
+tsc ./src/ts/components/ui/form/card-expiry-input.tsx -d --jsx react --target ES5 --outDir ./lib
+tsc ./src/ts/components/ui/form/checkbox.tsx -d --jsx react --target ES5 --outDir ./lib
+tsc ./src/ts/components/ui/form/color-selector.tsx -d --jsx react --target ES5 --outDir ./lib
+tsc ./src/ts/components/ui/form/country-selector.tsx -d --jsx react --target ES5 --outDir ./lib
+tsc ./src/ts/components/ui/form/form-message.tsx -d --jsx react --target ES5 --outDir ./lib
+tsc ./src/ts/components/ui/form/payment-card-input.tsx -d --jsx react --target ES5 --outDir ./lib
+tsc ./src/ts/components/ui/form/phone-input.tsx -d --jsx react --target ES5 --outDir ./lib
+tsc ./src/ts/components/ui/form/selector.tsx -d --jsx react --target ES5 --outDir ./lib
+tsc ./src/ts/components/ui/form/text-area.tsx -d --jsx react --target ES5 --outDir ./lib
+tsc ./src/ts/components/ui/form/text-input.tsx -d --jsx react --target ES5 --outDir ./lib

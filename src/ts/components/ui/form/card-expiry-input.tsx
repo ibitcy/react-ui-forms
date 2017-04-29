@@ -3,7 +3,7 @@ import {FieldType, ValidationType, Context} from "./form";
 import {UtilsService} from "../../../services/utils";
 import {CardsFormat} from 'cards-format';
 
-interface Props {
+export interface Props {
 	name: string,
 	type?: string,
 	value?: string,
@@ -13,7 +13,7 @@ interface Props {
 	onChange?: (value: string) => void
 }
 
-interface State {
+export interface State {
 	value: string,
 	isValid: boolean
 }

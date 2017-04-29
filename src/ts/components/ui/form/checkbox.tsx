@@ -5,7 +5,7 @@ export interface FormatLabel {
 	values:Object
 }
 
-interface Props {
+export interface Props {
 	liner?:boolean,
 	faded?:boolean,
 	checked:boolean,
@@ -15,7 +15,7 @@ interface Props {
 	onChange:(checked:boolean) => void
 }
 
-interface State {
+export interface State {
 
 }
 

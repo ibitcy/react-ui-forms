@@ -3,7 +3,7 @@ import {FieldType, ValidationType, Context} from "./form";
 import {UtilsService} from "../../../services/utils";
 import {CardsFormat, CardTypes} from 'cards-format';
 
-interface Props {
+export interface Props {
 	name: string,
 	type?: string,
 	value?: string,
@@ -14,7 +14,7 @@ interface Props {
 	simpleValidation?: boolean
 }
 
-interface State {
+export interface State {
 	value: string,
 	isValid: boolean
 }

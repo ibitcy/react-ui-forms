@@ -24,14 +24,14 @@ export enum ValidationType {
 	REG_EXP
 }
 
-interface Props {
+export interface Props {
 	className?: string,
 	onSubmitValid: (model: any) => void,
 	onSubmitInvalid?: (model: any, invalidModel: { [key: string]: string }) => void,
 	resetOnSubmitValid: boolean
 }
 
-interface State {
+export interface State {
 	invalidMessages: string[]
 }
 
@@ -56,14 +56,14 @@ export interface Context {
 	unRegisterInput: (name: string) => void;
 }
 
-export class UIForm extends React.Component<Props, State> {
+export class ReactValidForm extends React.Component<Props, State> {
 	state: State = {
 		invalidMessages: []
 	};
 
 	private _form: HTMLFormElement = null;
 
-	fields: Field[] = [];
+	private fields: Field[] = [];
 	private cardFormat: CardsFormat;
 
 	static childContextTypes = {

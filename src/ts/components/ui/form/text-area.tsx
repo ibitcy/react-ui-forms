@@ -2,7 +2,7 @@ import * as React from 'react';
 import {FieldType, ValidationType, Context} from "./form";
 import {UtilsService} from "../../../services/utils";
 
-interface Props {
+export interface Props {
 	name: string,
 	value?: string,
 	placeholder?: string,
@@ -12,7 +12,7 @@ interface Props {
 	proxyValueName?: string
 }
 
-interface State {
+export interface State {
 	value: string,
 	isValid: boolean
 }
