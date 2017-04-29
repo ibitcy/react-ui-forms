@@ -9,6 +9,7 @@ import {UiFormCheckbox} from "../ui/form/checkbox";
 import {UIFormSelector} from "../ui/form/selector";
 import {UIColorSelector} from "../ui/form/color-selector";
 import {UICountrySelector} from "../ui/form/country-selector";
+import {UIPhoneInput} from "../ui/form/phone-input";
 
 export interface Props {
 
@@ -179,6 +180,14 @@ export class AppComponent extends React.Component<Props, State> {
 									} as State);
 								}}
 								iconsPath="https://static.expertoption.com/flags/svg/4x3/"
+							/>
+						</div>
+
+						<div className="form-row test">
+							<UIPhoneInput
+								name="phone"
+								iconsPath="https://static.expertoption.com/flags/svg/4x3/"
+								isSng={true}
 							/>
 						</div>
 

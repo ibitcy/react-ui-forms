@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/99a779e9eb0c473ee65e49438b348bf7e9a97b84/google-libphonenumber/google-libphonenumber.d.ts",
+    "raw": "registry:dt/google-libphonenumber#7.4.3+20160630093131",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/99a779e9eb0c473ee65e49438b348bf7e9a97b84/google-libphonenumber/google-libphonenumber.d.ts"
+  }
+}
