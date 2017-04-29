@@ -1,7 +1,7 @@
 {
 	"name": "react-valid-form",
 	"description": "React validate form",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "index.js",
 	"author": "IBITCY",
 	"license": "MIT",
