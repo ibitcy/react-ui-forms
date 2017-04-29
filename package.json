@@ -1,7 +1,7 @@
 {
 	"name": "react-valid-form",
 	"description": "React validate form",
-	"version": "1.0.1",
+	"version": "1.0.0",
 	"main": "index.js",
 	"author": "IBITCY",
 	"license": "MIT",
@@ -41,7 +41,7 @@
 	"dependencies": {
 		"cards-format": "https://github.com/ibitcy/cards-format.git",
 		"google-libphonenumber": "^2.0.15",
-		"react-custom-scrollbar": "https://github.com/ibitcy/react-custom-scrollbar.git",
+		"react-custom-scrollbar": "https://github.com/ibitcy/react-valid-form.git",
 		"react-ui-dropdown": "https://github.com/ibitcy/react-ui-dropdown.git"
 	}
 }

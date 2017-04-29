@@ -53,7 +53,6 @@ export class UIPhoneInput extends React.Component<Props, State> {
 	};
 
 	componentDidMount(): void {
-		console.log(this.props);
 		this.onChangeCountry(this.props.isSng ? this.props.phoneDefaultCountrySNG : this.props.phoneDefaultCountryGlobal);
 
 		this.context.registerInput(
