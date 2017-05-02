@@ -8,39 +8,39 @@ npm i react-valid-form --save
 ## How to import
 For TypeScript usage there is a index.d.ts in node_modules folder
 ```typescript
-import {ReactValidForm, ValidationType} from "react-valid-form";
-import {UIPhoneInput} from "react-valid-form";
-import {UITextArea} from "react-valid-form";
-import {UICountrySelector} from "react-valid-form";
-import {UIColorSelector} from "react-valid-form";
-import {UIFormSelector} from "react-valid-form";
-import {UICardExpiryInput} from "react-valid-form";
-import {UIPaymentCardInput} from "react-valid-form";
-import {UITextInput} from "react-valid-form";
-import {UiFormCheckbox} from "react-valid-form";
-import {UIFormMessage, UIFormMessageType} from "react-valid-form";
+import {ReactValidForm, ValidationType} from "react-ui-forms";
+import {UIPhoneInput} from "react-ui-forms";
+import {UITextArea} from "react-ui-forms";
+import {UICountrySelector} from "react-ui-forms";
+import {UIColorSelector} from "react-ui-forms";
+import {UIFormSelector} from "react-ui-forms";
+import {UICardExpiryInput} from "react-ui-forms";
+import {UIPaymentCardInput} from "react-ui-forms";
+import {UITextInput} from "react-ui-forms";
+import {UiFormCheckbox} from "react-ui-forms";
+import {UIFormMessage, UIFormMessageType} from "react-ui-forms";
 ```
 
 or
 
 ```javascript
-var ReactValidForm = require('react-valid-form');
-var ValidationType = require('react-valid-form');
-var UITextArea = require('react-valid-form');
-var UICountrySelector = require('react-valid-form');
-var UIFormSelector = require('react-valid-form');
-var UICardExpiryInput = require('react-valid-form');
-var UIPaymentCardInput = require('react-valid-form');
-var UITextInput = require('react-valid-form');
-var UiFormCheckbox = require('react-valid-form');
-var UIFormMessage = require('react-valid-form');
-var UIFormMessageType = require('react-valid-form');
+var ReactValidForm = require('react-ui-forms');
+var ValidationType = require('react-ui-forms');
+var UITextArea = require('react-ui-forms');
+var UICountrySelector = require('react-ui-forms');
+var UIFormSelector = require('react-ui-forms');
+var UICardExpiryInput = require('react-ui-forms');
+var UIPaymentCardInput = require('react-ui-forms');
+var UITextInput = require('react-ui-forms');
+var UiFormCheckbox = require('react-ui-forms');
+var UIFormMessage = require('react-ui-forms');
+var UIFormMessageType = require('react-ui-forms');
 ```
 
 Also use css and images in a public folder in: 
 
 ```
-node_modules/react-valid-form/public/....
+node_modules/react-ui-forms/public/....
 ```
 
 ## How to use

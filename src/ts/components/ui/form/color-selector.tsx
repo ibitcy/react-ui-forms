@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {UIDropdown} from 'react-ui-dropdown';
+import {UIDropdown} from 'react-dropdown-ui';
 import {UtilsService} from "../../../services/utils";
 
 export interface UIFormColorItem {

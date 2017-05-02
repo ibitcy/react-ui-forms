@@ -18,10 +18,6 @@
   version "0.31.32"
   resolved "https://registry.yarnpkg.com/@types/es6-shim/-/es6-shim-0.31.32.tgz#8196c09e1e40ac977c713bf258090989f501d8ff"
 
-"@types/google-libphonenumber@^7.4.10":
-  version "7.4.10"
-  resolved "https://registry.yarnpkg.com/@types/google-libphonenumber/-/google-libphonenumber-7.4.10.tgz#90d00019e8abe285386fbb26a68997adcd360301"
-
 "@types/node@*", "@types/node@^6.0.58":
   version "6.0.58"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-6.0.58.tgz#7b3b7065f3cdf24e2349d35b68d2795cfa874553"
@@ -611,9 +607,9 @@ cardinal@^1.0.0:
     ansicolors "~0.2.1"
     redeyed "~1.0.0"
 
-"cards-format@https://github.com/ibitcy/cards-format.git":
-  version "1.0.0"
-  resolved "https://github.com/ibitcy/cards-format.git#398a05e3105bbde56a1c715a022c5fe475d1920a"
+cards-format@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/cards-format/-/cards-format-1.0.2.tgz#969fb60d99e49aef78f07d28c442a373964fa1e9"
 
 caseless@~0.11.0:
   version "0.11.0"
@@ -2954,9 +2950,9 @@ rc@~1.1.6:
     minimist "^1.2.0"
     strip-json-comments "~1.0.4"
 
-"react-custom-scrollbar@https://github.com/ibitcy/react-custom-scrollbar.git":
+react-custom-scrollbar@^1.0.0:
   version "1.0.0"
-  resolved "https://github.com/ibitcy/react-custom-scrollbar.git#1dd54c34ae64754862d9be8b2887e763d0fdf14e"
+  resolved "https://registry.yarnpkg.com/react-custom-scrollbar/-/react-custom-scrollbar-1.0.0.tgz#16466cac6ec9a493dd62891879e1a6ec1d958ded"
 
 react-dom@^15.4.2:
   version "15.4.2"
@@ -2965,6 +2961,10 @@ react-dom@^15.4.2:
     fbjs "^0.8.1"
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
+
+react-dropdown-ui@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-dropdown-ui/-/react-dropdown-ui-1.0.0.tgz#7b8d16d5bc545362930a47f5773f4afe1e39ae92"
 
 "react-ui-dropdown@https://github.com/ibitcy/react-ui-dropdown.git":
   version "1.0.0"
