@@ -37,7 +37,7 @@ export interface Context {
     registerInput: (type: FieldType, name: string, value: string, validationTypes: ValidationType[], validationParams: any, validated: (isValid: boolean) => void, setValue: (value: string) => void, invalidateMessage?: string) => void;
     unRegisterInput: (name: string) => void;
 }
-export declare class ReactValidForm extends React.Component<Props, State> {
+export declare class ReactUiForms extends React.Component<Props, State> {
     state: State;
     private _form;
     private fields;

@@ -134,7 +134,7 @@ gulp.task('stylesProduction', function () {
 				]
 			}
 		))
-		.pipe(rename('react-valid-form.css'))
+		.pipe(rename('react-ui-forms.css'))
 		.pipe(gulp.dest('public/css'));
 });
 

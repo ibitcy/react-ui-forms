@@ -8,7 +8,7 @@ npm i react-ui-forms --save
 ## How to import
 For TypeScript usage there is a index.d.ts in node_modules folder
 ```typescript
-import {ReactValidForm, ValidationType} from "react-ui-forms";
+import {ReactUiForms, ValidationType} from "react-ui-forms";
 import {UIPhoneInput} from "react-ui-forms";
 import {UITextArea} from "react-ui-forms";
 import {UICountrySelector} from "react-ui-forms";
@@ -24,7 +24,7 @@ import {UIFormMessage, UIFormMessageType} from "react-ui-forms";
 or
 
 ```javascript
-var ReactValidForm = require('react-ui-forms');
+var ReactUiForms = require('react-ui-forms');
 var ValidationType = require('react-ui-forms');
 var UITextArea = require('react-ui-forms');
 var UICountrySelector = require('react-ui-forms');
@@ -45,7 +45,7 @@ node_modules/react-ui-forms/public/....
 
 ## How to use
 
-#### - ReactValidForm
+#### - ReactUiForms
 
 ##### Props
 
@@ -73,9 +73,9 @@ node_modules/react-ui-forms/public/....
 * `REG_EXP`
 
 ```jsx harmony
-<ReactValidForm onSubmitValid={this.onValid} resetOnSubmitValid={true}>
+<ReactUiForms onSubmitValid={this.onValid} resetOnSubmitValid={true}>
     // Form elements here..
-</ReactValidForm>
+</ReactUiForms>
 ```
 #### - UIFormMessage
 

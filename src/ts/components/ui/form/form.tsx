@@ -56,7 +56,7 @@ export interface Context {
 	unRegisterInput: (name: string) => void;
 }
 
-export class ReactValidForm extends React.Component<Props, State> {
+export class ReactUiForms extends React.Component<Props, State> {
 	state: State = {
 		invalidMessages: []
 	};
