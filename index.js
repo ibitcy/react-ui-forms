@@ -12,7 +12,7 @@ const UIPhoneInput = require('./lib/components/ui/form/phone-input');
 
 
 module.exports.ReactUiForms = ReactUiForms.ReactUiForms;
-module.exports.ValidationType = ReactValidForm.ValidationType;
+module.exports.ValidationType = ReactUiForms.ValidationType;
 
 module.exports.UITextInput = UITextInput.UITextInput;
 

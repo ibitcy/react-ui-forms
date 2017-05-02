@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {ReactValidForm, ValidationType} from "../ui/form/form";
+import {ReactUiForms, ValidationType} from "../ui/form/form";
 import {UITextInput} from "../ui/form/text-input";
 import {UIPaymentCardInput} from "../ui/form/payment-card-input";
 import {UICardExpiryInput} from "../ui/form/card-expiry-input";
@@ -47,7 +47,7 @@ export class AppComponent extends React.Component<Props, State> {
 
 
 
-					<ReactValidForm onSubmitValid={this.onValid} resetOnSubmitValid={true}>
+					<ReactUiForms onSubmitValid={this.onValid} resetOnSubmitValid={true}>
 
 						<UIFormMessage message="Test message success" type={UIFormMessageType.SUCCESS}/>
 						<UIFormMessage message="Test message error" type={UIFormMessageType.ERROR}/>
@@ -266,7 +266,7 @@ export class AppComponent extends React.Component<Props, State> {
 
 
 						</div>
-					</ReactValidForm>
+					</ReactUiForms>
 				</div>
 			</div>
 		);
