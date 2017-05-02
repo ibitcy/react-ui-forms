@@ -1,8 +1,8 @@
-# react-valid-form
+# react-ui-forms
 
 ## How to install
 ```
-npm i react-valid-form --save
+npm i react-ui-forms --save
 ```
 
 ## How to import
