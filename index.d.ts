@@ -1,4 +1,4 @@
-import {ReactValidForm, ValidationType} from './lib/components/ui/form/form';
+import {ReactUiForms, ValidationType} from './lib/components/ui/form/form';
 import {UICardExpiryInput} from './lib/components/ui/form/card-expiry-input';
 import {UIColorSelector, UIFormColorItem} from './lib/components/ui/form/color-selector';
 import {UICountrySelector} from './lib/components/ui/form/country-selector';
@@ -11,7 +11,7 @@ import {UITextInput} from './lib/components/ui/form/text-input';
 import {UiFormCheckbox} from './lib/checkbox';
 
 export {
-	ReactValidForm,
+	ReactUiForms,
 	ValidationType,
 	UICardExpiryInput,
 	UIColorSelector,

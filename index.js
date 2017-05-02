@@ -1,4 +1,4 @@
-const ReactValidForm = require('./lib/components/ui/form/form');
+const ReactUiForms = require('./lib/components/ui/form/form');
 const UITextInput = require('./lib/components/ui/form/text-input');
 const UIPaymentCardInput = require('./lib/components/ui/form/payment-card-input');
 const UICardExpiryInput = require('./lib/components/ui/form/card-expiry-input');
@@ -11,7 +11,7 @@ const UICountrySelector = require('./lib/components/ui/form/country-selector');
 const UIPhoneInput = require('./lib/components/ui/form/phone-input');
 
 
-module.exports.ReactValidForm = ReactValidForm.ReactValidForm;
+module.exports.ReactUiForms = ReactUiForms.ReactUiForms;
 module.exports.ValidationType = ReactValidForm.ValidationType;
 
 module.exports.UITextInput = UITextInput.UITextInput;
